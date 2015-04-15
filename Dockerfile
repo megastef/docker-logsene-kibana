@@ -7,6 +7,7 @@ RUN apk --update add curl && \
     curl -s https://download.elasticsearch.org/kibana/kibana/kibana-${KIBANA_VERSION}.tar.gz | tar zx -C /opt && \
     apk add lua-curl && \
     apk add nodejs && \
+    apk add openssl && \
     npm install -g htpasswd && \
     rm -rf /opt/kibana-${KIBANA_VERSION}/node && \
     mkdir -p /opt/kibana-${KIBANA_VERSION}/node/bin && \
