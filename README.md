@@ -7,7 +7,7 @@ Parameters:
 - TOKEN - Your Logsene App-Token (mandatory parameter)
 - KIBANA_USER - user to create in .htpasswd for Kibana4, defaults to "kibana"
 - KIBANA_PASSWORD - password to use in .htpasswd, defaults to "secret"
-- CERT_SUBJ - optional, openssl '-subj' parameter to generate the SSL certificate defaults to "/C=GB/ST=London/L=London/O=GlobalSecurity/OU=IT/CN=example.com"
+- CERT - optional, openssl '-subj' parameter to generate the SSL certificate defaults to "/C=GB/ST=London/L=London/O=GlobalSecurity/OU=IT/CN=example.com"
 
 ## Running
 
