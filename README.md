@@ -5,8 +5,8 @@ in a small container image preconfigured to be used with [Logsene](http://www.se
 
 Parameters:
 - TOKEN - Your Logsene App-Token (mandatory parameter)
-- KIBANA_USER - user to create in .htpasswd for Kibana4, defaults to "kibana"
-- KIBANA_PASSWORD - password to use in .htpasswd, defaults to "secret"
+- USER - user to create in .htpasswd for Kibana4, defaults to "kibana"
+- PASSWORD - password to use in .htpasswd, defaults to "secret"
 - CERT - optional, openssl '-subj' parameter to generate the SSL certificate defaults to "/C=GB/ST=London/L=London/O=GlobalSecurity/OU=IT/CN=example.com"
 
 ## Running
