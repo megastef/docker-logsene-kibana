@@ -1,10 +1,10 @@
 # Kibana 4 for Logsene in docker
 
 This is dockerized version of [kibana 4](https://github.com/elasticsearch/kibana)
-in a small 60mb container image. This fork configures Kibana 4 for Logsene.
+in a small container image preconfigured to be used with [Logsene](http://www.sematext.com/logsene/)
 
 Parameters:
-- LOGSENE_TOKEN - Your Logsene App-Token (mandatory parameter)
+- TOKEN - Your Logsene App-Token (mandatory parameter)
 - KIBANA_USER - user to create in .htpasswd for Kibana4, defaults to "kibana"
 - KIBANA_PASSWORD - password to use in .htpasswd, defaults to "secret"
 - CERT_SUBJ - optional, openssl '-subj' parameter to generate the SSL certificate defaults to "/C=GB/ST=London/L=London/O=GlobalSecurity/OU=IT/CN=example.com"
