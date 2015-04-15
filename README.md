@@ -1,4 +1,4 @@
-## Kibana 4 to analyze logs stored in Logsene
+## Kibana4 for Logsene
 
 [About Logsene](http://www.sematext.com/logsene): *Centralized Logging, Log Management & Analytics has never been easier. Logsene is your ELK Stack in the Cloud or On Premises.*
 
