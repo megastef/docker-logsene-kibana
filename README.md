@@ -31,7 +31,7 @@ The following parameters can be used with "-e" command line option of docker.
 - CERT - optional, openssl '-subj' parameter to generate the SSL certificate defaults to "/C=GB/ST=London/L=London/O=GlobalSecurity/OU=IT/CN=example.com"
 
 ## Contributions
-This work is derived from bobrik/docker-kibana4 with following modifications:
+This work is derived from [bobrik/docker-kibana4](https://github.com/bobrik/docker-kibana4) with following modifications:
 - using Logsene instead of Elasticsearch
 - authentication for Kibana4 
 - generate self signed SSL certificate
