@@ -12,7 +12,7 @@ docker run -d -p 5601:5601 -e TOKEN=YOUR-APP-TOKEN -e PASSWORD=secret sematext/k
 Open the web browser https://user:password@hostname:port/ in our example
 
 ```
-https://kibana:secret@localhost:5609/
+https://kibana:secret@localhost:5601/
 ```
 
 When Kibana 4 starts the first time it asks for an "index pattern" - you need to use the Logsene App Token here:
